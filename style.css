@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url(Screenshot\ \(29\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+}
+
+.typewriter {
+    margin: 10px auto; 
+    max-width: 800px; 
+    background-color: white;
+    padding: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    height: 8630px;
+    border-right: 2px solid;
+    animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.typewriter p {
+    font-size: 1.25em;
+}
+
+.typewriter h2 {
+    color: green;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+
+@media(max-width: 768px) {
+    .typewriter {
+        margin: 10px 20px; 
+        padding: 10px; 
+        height: 8630px;
+    }
+
+    .typewriter h2 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .typewriter p {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
