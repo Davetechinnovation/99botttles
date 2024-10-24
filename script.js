@@ -1,7 +1,7 @@
 function typewriterEffect(elementId, speed) {
-    const element = document.getElementById("typewriter");
+    const element = document.getElementById("write");
     const fullText = element.innerHTML; // Get the full text from the element
-    element.innerHTML = ''; // Clear the text to start the effect
+    element.innerHTML = ''; 
     let index = 0;
 
     function type() {
@@ -16,5 +16,5 @@ function typewriterEffect(elementId, speed) {
     type();
   }
 
-  // Apply the typewriter effect to the div with the text already in it
-  typewriterEffect("typewriter", 40); 
+  
+  typewriterEffect("typewriter", 20); 

@@ -17,18 +17,19 @@ body {
     margin: 10px auto; 
     max-width: 800px; 
     background-color: white;
+    border-radius: 10px;
     padding: 20px; 
     font-family: 'Times New Roman', Times, serif;
-    height: 8630px;
-    border-right: 2px solid;
-    animation: blink 0.7s step-end infinite;
+    height: auto;
 }
 
-@keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
+.typewriter img{
+    width: 799px;
+  margin: -20px -20px 0;
+  border-radius: 20px;
+}
+
+
 
 .typewriter p {
     font-size: 1.25em;
@@ -41,18 +42,37 @@ body {
     padding: 15px 0;
 }
 
+iframe{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px greenyellow;
+}
+
 @media(max-width: 768px) {
     .typewriter {
-        margin: 10px 20px; 
+        margin: 10px auto; 
         padding: 10px; 
-        height: 8630px;
+        height: auto;
+        width: 90%;
+        overflow-x: hidden;
     }
 
     .typewriter h2 {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
+        font-size: 1.2em; /* Adjust font size for smaller screens */
     }
 
     .typewriter p {
-        font-size: 1em; /* Adjust font size for smaller screens */
+        font-size: 0.8em; /* Adjust font size for smaller screens */
     }
+
+    .typewriter img{
+        width: 109%;
+    }
+    
+    iframe{
+        width: 100%;
+      margin-top: 15px;
+    }
+    
 }
