@@ -42,12 +42,12 @@ body {
     padding: 15px 0;
 }
 
-iframe{
+/*iframe{
     margin-top: 15px;
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 20px greenyellow;
-}
+}*/
 
 @media(max-width: 768px) {
     .typewriter {
@@ -70,9 +70,9 @@ iframe{
         width: 109%;
     }
     
-    iframe{
+   /* iframe{
         width: 100%;
       margin-top: 15px;
-    }
+    }*/
     
 }
